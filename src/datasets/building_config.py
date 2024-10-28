@@ -25,52 +25,57 @@ import numpy as np
 ########################################################################
 
 # The validation set was arbitrarily chosen as the x last train tiles:
+
+
+# 'KCDC109-110_E_processed.h5', 
+# 'KCDC109-110_N_processed.h5',
+# 'KCDC109-110_S_processed.h5',
+# 'KCDC109-110_W_processed.h5', 
+# 'KCDC111-112_E_processed.h5', 
+# 'KCDC111-112_N_processed.h5 ',
+# 'KCDC111-112_S_processed.h5',
+# 'KCDC111-112_W_processed.h5'
+
+# B1505_NE_2
+# B1505_SE_1
+# B1505_SE_2
+# B1509_SW
+# B1520_NW
+# B1520_NW_BETTER
+# B1520_SW_1
+# B1520_SW_2_door
+# B1520_SW_2_main
+# B2570_SW_left
+# B2570_SW_right
+# B3156_NW
+# B4020_SW
 TILES = {
     'train': [
-        '5080_54435_new',
-        '5190_54400_new',
-        '5105_54460_new',
-        '5130_54355_new',
-        '5165_54395_new',
-        '5185_54390_new',
-        '5180_54435_new',
-        '5085_54320_new',
-        '5100_54495_new',
-        '5110_54320_new',
-        '5140_54445_new',
-        '5105_54405_new',
-        '5185_54485_new',
-        '5165_54390_new',
-        '5145_54460_new',
-        '5110_54460_new',
-        '5180_54485_new',
-        '5150_54340_new',
-        '5145_54405_new',
-        '5145_54470_new',
-        '5160_54330_new',
-        '5135_54495_new',
-        '5145_54480_new',
-        '5115_54480_new',
-        '5110_54495_new',
-        '5095_54440_new'],
+        'KCDC109-110_E_processed', 
+        'KCDC109-110_N_processed',
+        'KCDC109-110_S_processed',
+        'KCDC109-110_W_processed',
+        # 'B1505_NE_2',
+        # 'B1509_SE_1',
+        # 'B1509_SE_2',
+        # 'B1509_SW',
+        # 'B1520_NW',
+        # 'B1520_SW_1',
+        'B1520_SW_2_door',
+        'B1520_SW_2_main',
+        'B2570_SW_left',
+        'B2570_SW_right',
+        'B3156_NW'],
 
     'val': [
-        '5145_54340_new',
-        '5095_54455_new',
-        '5110_54475_new'],
+        'KCDC111-112_E_processed', 
+        'KCDC111-112_N_processed',
+        # 'B4020_SW',
+        'B1520_NW_BETTER'],
 
     'test': [
-        '5080_54470_new',
-        '5100_54440_new',
-        '5140_54390_new',
-        '5080_54400_new',
-        '5155_54335_new',
-        '5150_54325_new',
-        '5120_54445_new',
-        '5135_54435_new',
-        '5175_54395_new',
-        '5100_54490_new',
-        '5135_54430_new']}
+        'KCDC111-112_S_processed',
+        'KCDC111-112_W_processed']}
 
 
 ########################################################################
@@ -113,9 +118,9 @@ ID2TRAINID = np.asarray([
 
 # Class names (including void/unlabeled/ignored last)
 CLASS_NAMES = [
-    'Window',
+    'Window + Door',
     'Wall',
-    'Door',
+    'Others',
     'Ignored'
 ]
 

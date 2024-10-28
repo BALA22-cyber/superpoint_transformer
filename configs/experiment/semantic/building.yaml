@@ -12,7 +12,7 @@ defaults:
 # this allows you to overwrite only specified parameters
 
 trainer:
-  max_epochs: 2000
+  max_epochs: 1000
 
 model:
   optimizer:
@@ -21,5 +21,5 @@ model:
 
 logger:
   wandb:
-    project: "spt_building"
-    name: "SPT-64"
+    project: "all_building_1000"
+    name: "all_building_1000"
