@@ -1,0 +1,1 @@
+{"columns": ["Actual", "Predicted", "nPredictions"], "data": [["Window + Door", "Window + Door", 1624703], ["Window + Door", "Wall", 85067], ["Window + Door", "Others", 0], ["Wall", "Window + Door", 137758], ["Wall", "Wall", 7349519], ["Wall", "Others", 183305], ["Others", "Window + Door", 20187], ["Others", "Wall", 84913], ["Others", "Others", 874869]]}

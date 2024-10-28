@@ -1,0 +1,45 @@
+{
+  "os":  "Linux-5.10.102.1-microsoft-standard-WSL2-x86_64-with-glibc2.17",
+  "python":  "3.8.20",
+  "startedAt":  "2024-10-28T14:05:52.862206Z",
+  "args":  [
+    "experiment=semantic/building"
+  ],
+  "program":  "src/train.py",
+  "codePath":  "src/train.py",
+  "git":  {
+    "remote":  "https://github.com/BALA22-cyber/superpoint_transformer.git",
+    "commit":  "9f658d2a86442859d5d6f774ea6f1982421328dd"
+  },
+  "email":  "balajiselvakumar22@gmail.com",
+  "root":  "/mnt/e/superpoint_transformer/logs/train/runs/2024-10-28_10-05-50",
+  "host":  "PC0142120",
+  "username":  "maverick",
+  "executable":  "/home/maverick/miniconda3/envs/spt/bin/python",
+  "codePathLocal":  "src/train.py",
+  "cpu_count":  24,
+  "cpu_count_logical":  48,
+  "gpu":  "NVIDIA RTX 6000 Ada Generation",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "269490393088",
+      "used":  "111201951744"
+    }
+  },
+  "memory":  {
+    "total":  "107711803392"
+  },
+  "cpu":  {
+    "count":  24,
+    "countLogical":  48
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal":  "51527024640",
+      "architecture":  "Ada"
+    }
+  ],
+  "cudaVersion":  "12.6"
+}
