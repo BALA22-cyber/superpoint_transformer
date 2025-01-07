@@ -12,7 +12,7 @@
 [//]: # ([![Conference]&#40;https://img.shields.io/badge/AnyConference-year-4b44ce.svg&#41;]&#40;https://papers.nips.cc/paper/2020&#41;)
 
 
-Official implementation for
+Official implementation for cloned copy
 <br>
 <br>
 [_Efficient 3D Semantic Segmentation with Superpoint Transformer_](https://arxiv.org/abs/2306.08045) (ICCV 2023)
